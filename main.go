@@ -8,7 +8,7 @@ import (
 
 func main() {
 	r := InitRouter()               // 注册路由
-	r.Run(fmt.Sprintf(":%d", 7003)) // 启动服务
+	r.Run(fmt.Sprintf(":%d", 80)) // 启动服务
 }
 
 func InitRouter() *gin.Engine {
